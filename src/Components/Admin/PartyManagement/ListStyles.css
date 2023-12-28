@@ -1,0 +1,60 @@
+/* Updated CSS for the Party List */
+.party-list {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .party-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .party-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .party-list th,
+  .party-list td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .party-list th {
+    background-color: #f3f3f3;
+    font-weight: bold;
+  }
+  
+  .party-list tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .create-button {
+    margin-left: auto;
+    margin-bottom: 15px;
+    width: 100px;
+    font-size: larger;
+  }
+  .party-list button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: large;
+  }
+  
+  .party-list tbody tr td:last-child button:last-child {
+    margin-right: 0; 
+  }
+  

@@ -1,0 +1,49 @@
+/* Updated CSS for the Vote for a Party section */
+.vote-container {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .vote-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .vote-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .vote-label {
+    margin-bottom: 5px;
+  }
+  
+  .vote-input,
+  .vote-select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 100%; /* Ensures full width within the container */
+  }
+  
+  .vote-button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: fit-content; /* Adjusts button width to fit content */
+    margin: 0 auto; /* Centers the button */
+  }
+  
+  .vote-button:hover {
+    background-color: #555;
+  }
+  

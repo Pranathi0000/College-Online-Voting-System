@@ -1,0 +1,42 @@
+/* Style the overall container */
+body{
+  background-image: url('https://images.unsplash.com/photo-1604065626882-47c3093bec11?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHZvdGV8ZW58MHx8MHx8fDA%3D');
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.2); 
+}
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style section headings */
+  .about-container h1,
+  .about-container h2 {
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  /* Style paragraph text */
+  .about-container p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+    
+  }
+  
+  /* Style unordered lists */
+  .about-container ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  /* Style anchor links */
+  .about-container a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .about-container a:hover {
+    text-decoration: underline;
+  }
+  

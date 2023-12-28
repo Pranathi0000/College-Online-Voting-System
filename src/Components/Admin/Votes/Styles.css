@@ -1,0 +1,47 @@
+/* CSS for the Vote Counts table */
+.dashboard{
+  font-size:larger;
+  padding: auto;
+  margin-bottom: 0;
+  width:120px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.vote-counts {
+    max-width: 600px;
+    margin: auto;
+    margin-top:100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .vote-counts h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .vote-counts table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .vote-counts th,
+  .vote-counts td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .vote-counts th {
+    background-color: #f3f3f3;
+    font-weight: bold;
+  }
+  
+  .vote-counts tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }

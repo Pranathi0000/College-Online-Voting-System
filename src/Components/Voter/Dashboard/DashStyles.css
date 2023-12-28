@@ -1,0 +1,39 @@
+/* CSS for the voter dashboard */
+.voter-container {
+    max-width: 600px;
+    margin: auto;
+    margin-top:100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .voter-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .voter-navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .voter-navbar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .voter-navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: #f3f3f3;
+    transition: background-color 0.3s ease;
+  }
+  
+  .voter-navbar ul li a:hover {
+    background-color: #e0e0e0;
+  }
+  
