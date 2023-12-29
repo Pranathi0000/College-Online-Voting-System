@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import { Link } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
 import './Styles.css';
 
@@ -32,7 +31,6 @@ const VoteCount = () => {
   return (
     <div className="vote-counts">
       <h2>Vote Counts</h2>
-      <Link to="/admindash"><button className="dashborard">dashboard</button></Link>
       <table>
         <thead>
           <tr>
